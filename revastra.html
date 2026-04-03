@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReVastra India | Turn Your Old Clothes into Impact</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#1B4332',
+                            sage: '#B7B7A4',
+                            accent: '#CB997E',
+                            light: '#F8F9FA'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-light text-brand-dark overflow-x-hidden">
+
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-extrabold tracking-tighter flex items-center gap-2">
+                <i data-lucide="recycle" class="text-brand-dark"></i> ReVastra <span class="text-brand-accent">India</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-semibold text-sm uppercase tracking-wider">
+                <a href="#problem" class="hover:text-brand-accent transition">The Issue</a>
+                <a href="#how" class="hover:text-brand-accent transition">How it Works</a>
+                <a href="#impact" class="hover:text-brand-accent transition">Our Impact</a>
+                <a href="#shop" class="hover:text-brand-accent transition">Shop</a>
+            </div>
+            <a href="https://wa.me/9100000000" class="bg-brand-dark text-white px-6 py-2.5 rounded-full font-bold hover:bg-black transition shadow-lg shadow-green-900/20">
+                Book Pickup
+            </a>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6 lg:pt-48 lg:pb-32">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="order-2 lg:order-1">
+                <div class="inline-block bg-brand-sage/20 text-brand-dark px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest mb-6">
+                    Zero Waste India Movement
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-extrabold leading-tight">
+                    Turn Your Old Clothes into <span class="text-brand-accent">Impact.</span>
+                </h1>
+                <p class="text-xl mt-6 text-gray-600 leading-relaxed max-w-xl">
+                    Easy doorstep pickups. Responsible recycling. Stylish upcycled fashion. Join the circular movement today.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 mt-10">
+                    <button class="bg-brand-accent text-white px-10 py-4 rounded-2xl text-lg font-bold hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                        Schedule a Pickup <i data-lucide="arrow-right"></i>
+                    </button>
+                    <button class="border-2 border-brand-dark px-10 py-4 rounded-2xl text-lg font-bold hover:bg-brand-dark hover:text-white transition">
+                        Shop Collection
+                    </button>
+                </div>
+            </div>
+            <div class="order-1 lg:order-2 relative">
+                <div class="rounded-[2rem] overflow-hidden rotate-2 shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80&w=1000" class="w-full h-[500px] object-cover" alt="Sustainable Fashion">
+                </div>
+                <div class="absolute -bottom-10 -left-10 bg-white p-8 rounded-3xl shadow-xl hidden md:block">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-green-100 p-3 rounded-full"><i data-lucide="leaf" class="text-green-600"></i></div>
+                        <div>
+                            <p class="text-2xl font-bold">2,500+</p>
+                            <p class="text-xs text-gray-500 uppercase font-bold tracking-widest">Happy Donors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-8 italic">"90% of discarded clothes end up in Indian landfills."</h2>
+            <p class="text-xl text-gray-500 leading-relaxed">
+                That's millions of tons of waste suffocating our planet. Your unused clothes aren't just taking up space—they're a missed opportunity to create a cleaner world.
+            </p>
+        </div>
+    </section>
+
+    <section id="how" class="py-24 px-6 bg-brand-light">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 underline decoration-brand-accent underline-offset-8">The ReVastra Process</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition">
+                    <div class="w-16 h-16 bg-brand-accent/10 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="calendar" class="text-brand-accent" size="32"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">1. Book Online</h3>
+                    <p class="text-gray-600">Pick a slot that suits you. Our app makes it as easy as ordering a pizza.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition">
+                    <div class="w-16 h-16 bg-brand-dark/10 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="truck" class="text-brand-dark" size="32"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">2. Fast Collection</h3>
+                    <p class="text-gray-600">Our Green Riders arrive at your doorstep for a hassle-free pickup.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition">
+                    <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="sparkles" class="text-green-700" size="32"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">3. We Transform</h3>
+                    <p class="text-gray-600">Clothes are sorted, upcycled by local artisans, or responsibly recycled.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="py-24 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-4xl font-bold">Featured Upcycled Gear</h2>
+                    <p class="text-gray-500 mt-2">Affordable. Stylish. Planet-approved.</p>
+                </div>
+                <button class="text-brand-accent font-bold flex items-center gap-2 hover:underline">View All <i data-lucide="chevron-right"></i></button>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group">
+                    <div class="rounded-3xl overflow-hidden mb-4 aspect-square bg-gray-100">
+                        <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <h4 class="text-xl font-bold uppercase tracking-tight">The Nomad Tote Bag</h4>
+                    <p class="text-brand-accent font-bold">₹899</p>
+                </div>
+                <div class="group">
+                    <div class="rounded-3xl overflow-hidden mb-4 aspect-square bg-gray-100">
+                        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <h4 class="text-xl font-bold uppercase tracking-tight">Patchwork Denim Jacket</h4>
+                    <p class="text-brand-accent font-bold">₹2,499</p>
+                </div>
+                <div class="group">
+                    <div class="rounded-3xl overflow-hidden mb-4 aspect-square bg-gray-100">
+                        <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <h4 class="text-xl font-bold uppercase tracking-tight">Zero-Waste Basic Tee</h4>
+                    <p class="text-brand-accent font-bold">₹599</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6">
+        <div class="max-w-7xl mx-auto bg-brand-dark rounded-[3rem] p-12 lg:p-24 text-center text-white relative overflow-hidden">
+            <div class="relative z-10">
+                <h2 class="text-4xl md:text-6xl font-extrabold mb-8">Ready to Declutter?</h2>
+                <p class="text-xl text-brand-sage mb-12 max-w-2xl mx-auto">Start your sustainability journey today. We’re currently picking up in Kolkata, Bangalore, and Mumbai.</p>
+                <button class="bg-white text-brand-dark px-12 py-5 rounded-full font-black text-xl hover:bg-brand-accent hover:text-white transition shadow-2xl">
+                    Schedule Pickup Now
+                </button>
+            </div>
+            <div class="absolute -top-20 -right-20 opacity-10">
+                <i data-lucide="recycle" size="400"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 px-6 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-2xl font-black">ReVastra INDIA</div>
+            <div class="flex gap-8 text-sm font-medium text-gray-500">
+                <a href="#" class="hover:text-brand-accent">Instagram</a>
+                <a href="#" class="hover:text-brand-accent">WhatsApp</a>
+                <a href="#" class="hover:text-brand-accent">Careers</a>
+            </div>
+            <p class="text-xs text-gray-400">© 2026 ReVastra India Foundation. Made with love for the planet.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+</html>
